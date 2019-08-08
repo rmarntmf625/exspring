@@ -10,6 +10,10 @@ db.url=데이터베이스접속주소
 db.username=데이터베이스접속아이디
 db.password=데이터베이스접속비밀번호
 
+##스프링 학습 관력
+-스프링 동영상 강의
+-https://www.youtube.com/watch?v=j5WlADp5f_o&list=PL9mhQYIlKEhfYqQ-UkO2pe2suSx9IoFT2
+
 - spring
 	- https://spring.io/projects/spring-framework
 	- (한글) https://blog.outsider.ne.kr/tag/spring_reference_documentation
