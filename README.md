@@ -1,6 +1,7 @@
 # Spring Framework Study
 
 ##프로젝트 실행 방법
+
 */src/mai/resources/evn.properties 파일 생성 후 내용을 다음과 같이 작성
 ~~~
 #데이터베이스 접속정보
