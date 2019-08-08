@@ -10,6 +10,7 @@ import java.util.UUID;
 
 import javax.annotation.Resource;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.FileCopyUtils;
@@ -27,9 +28,11 @@ public class BbsServiceImpl implements BbsService {
 	@Resource
 	private AttachDao attachDao;
 	
+	
 	//게시판 첨부파일을 저장할 디렉토리 경로
 	private String uploadDir = "C:/Temp/upload";
 	{
+		
 		//uploadDir에 지정된 디렉토리가 없으면 만들기
 		new File(uploadDir).mkdirs();
 	}
